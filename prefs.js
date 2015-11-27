@@ -11,7 +11,7 @@ var prefs = {
     "testPage":"/test.php?url=", // Page to test if server is up. Page must return status code in plain text
     "checkRate":2000, // How often (in milliseconds) should the servers be checked
     "slack":{
-        "enabled":"true",
+        "enabled":"false",
         "webhook":"https://hooks.slack.com/services/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"
     },
     "servers": [ // Servers to show
@@ -50,7 +50,7 @@ var prefs = {
     ],
     "colors":{
         "online":"#0F0", // Online server circle color
-        "abnormal":"#F70", // Abnomal color
+        "abnormal":"#F70", // Abnormal color
         "offline":"#F00", // Offline color
         "background": "#0000FF", // Full page background
         "text":"#FFF" // Color of all text
